@@ -1,7 +1,7 @@
 import ExperienceBar from "../components/ExperienceBar";
 import Profile from "../components/Profile";
-import Head from "next/head";
 import styles from "../styles/pages/Home.module.css";
+import CompleteChallenges from "../components/CompleteChallenges";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <section>
         <div>
           <Profile />
+          <CompleteChallenges />
         </div>
         <div></div>
       </section>
